@@ -7,26 +7,13 @@ var xlsx = require('node-xlsx');
 
 
 
-
-
-
-var config = {
-	local: __dirname + "/upload/",
-	localExcel: __dirname + "/excel/",
-	remote: "Z:/upload/",
-	remoteExcel: "Z:/excel/"
-
+var config = { 
+	local: './upload/',//'L:/FI/Sudheer-Test/',
+	localExcel: './upload',//'L:/FI/Sudheer-Test/',
+	remote: "//10.93.197.158/netshare/FI/Sudheer-Test/",
+	remoteExcel: '//10.93.197.158/netshare/FI/Sudheer-Test/'
+ 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
